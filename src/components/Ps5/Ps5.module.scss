@@ -1,19 +1,25 @@
-.zona {
-    background-image: url(/HeaderLogo2.png);
+.ps5{
+    background-image: url(/fonps5.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
     width: 100%;
     background-color: #1f1f1f;
+
 }
 
+
+
 .wrap {
+    padding-top: 170px;
+    padding-bottom: 30px;
     font-weight: 900;
     font-size: 90px;
     text-transform: uppercase;
     color: #fff;
 }
+
 .box{
     border: 3px solid rgba(255, 255, 255, 0.05);
 border-radius: 5px;
@@ -21,7 +27,7 @@ border-radius: 5px;
 
 }
 
-.har {
+.title {
     font-weight: 600;
     font-size: 40px;
     text-transform: uppercase;
@@ -47,22 +53,33 @@ border-radius: 5px;
 }
 
 .text2 {
-
+    
     font-weight: 400;
     padding-left: 15px;
     padding-right: 15px;
 
     font-size: 12px;
-    text-align: center;
     color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 15px;
 }
 
 .text1 {
+    padding: 10px;
     padding-top: 15px;
+    
 }
 
+.text3{
+    font-weight: 400;
+font-size: 10px;
+color: rgba(255, 255, 255, 0.3);
 
-  
-.image{
-    padding: 19px;
+}
+
+.text4{
+    font-weight: 300;
+font-size: 20px;
+text-transform: uppercase;
+color: #fff;
+padding: 10px;
 }
